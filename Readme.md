@@ -1,4 +1,5 @@
 # Combustion-Atmospheric Volcanic Plume Chemistry and Transport Model
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15068003.svg)](https://doi.org/10.5281/zenodo.15068003)
 developed and applied by Nies et al., 2025, "Reactive bromine in volcanic plumes confines the emission temperature and oxidation of magmatic gases at the atmospheric interface" 
 
 high temperature (HT) stage based on Kuhn et al., 2022, https://doi.org/10.1029/2022GC010671  
