@@ -1,5 +1,6 @@
 # Combustion-Atmospheric Volcanic Plume Chemistry and Transport Model
 developed and applied by Nies et al., 2025, "Reactive bromine in volcanic plumes confines the emission temperature and oxidation of magmatic gases at the atmospheric interface" 
+
 high temperature (HT) stage based on Kuhn et al., 2022, https://doi.org/10.1029/2022GC010671  
 based on the cantera toolkit (cantera.org): Goodwin et al., 2024, https://doi.org/10.5281/zenodo.14455267  
 chemical mechanisms (HT & ATM stage) are described in Nies, 2024, https://theses.hal.science/tel-04973866  
