@@ -676,7 +676,7 @@ def calc_sol(mech, X_plume, atm, R0, T_0_plume, P, t_range, v_wind, ay, az, by, 
     
     plume_ode = turbPlumeOde(plume, atm, A0, R0, v_wind, ay, az, by, bz, chem_on = chem_on, aerosol_on = aerosol_on)
         
-    sol = solve_ivp(plume_ode,t_range,y0,method='BDF',atol=1e-20,rtol=1e-5)
+    sol = solve_ivp(plume_ode,t_range,y0,method='BDF',atol=1e-20,rtol=1e-6)
     sol.y[0,:] = sol.y[0,:]*1e6
 
     sol_comp['T'] = sol.y[0,:].T
